@@ -1,0 +1,80 @@
+/*** ESSENTIAL STYLES ***/
+#breadcrumbs .nav, #breadcrumbs .nav * {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#breadcrumbs .nav li {
+position: relative;
+}
+#breadcrumbs .nav ul {
+position: absolute;
+display: none;
+top: 100%;
+left: 0;
+z-index: 99;
+}
+#breadcrumbs .nav > li {
+float: left;
+}
+#breadcrumbs .nav li:hover > ul,
+#breadcrumbs .nav li.sfHover > ul {
+display: block;
+overflow:visible;
+}
+
+#breadcrumbs .nav a {
+display: block;
+position: relative;
+}
+#breadcrumbs .nav ul ul {
+top: 0;
+left: 100%;
+}
+
+
+/*** DEMO SKIN ***/
+#breadcrumbs .nav {
+float: left;
+background: #ed8900;
+width: 100%;
+/*border-top: 1px solid #FFFFFF;*/
+}
+#breadcrumbs .nav ul {
+box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+min-width: 12em; /* allow long menu items to determine submenu width */
+*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+#breadcrumbs .nav a {
+/* border-left: 1px solid #fff; */
+/* border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
+padding: .68em 2.43em;
+text-decoration: none;
+color: #fff;
+zoom: 1; /* IE7 */
+}
+
+#breadcrumbs .nav li {
+background: #ed8900;
+white-space: nowrap; /* no need for Supersubs plugin */
+*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+-webkit-transition: background .2s;
+transition: background .2s;
+font-size: 14px;
+font-weight: bold;
+}
+#breadcrumbs .nav ul li {
+background: #ed8900;
+font-weight: normal;
+text-align: left;
+}
+#breadcrumbs .nav li:hover,
+#breadcrumbs .nav li.sfHover {
+background: #eb9c31;
+/* only transition out, not in */
+-webkit-transition: none;
+transition: none;
+}
+#breadcrumbs .nav ul li a {
+  padding: .75em 3.8em .75em 1em;
+}
