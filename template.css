@@ -27,7 +27,7 @@ body{      margin:0 auto; padding-bottom: 20px; text-align:center; font-size:12p
 #maincolumn {  margin:0; padding:0px 25px; max-width:740px; float: left; text-align: left;}
 #bannercolumn {  margin:0; padding:0; max-width:790px; float: left; text-align: left;}
 #rightcolumn {  margin:0; padding:25px; width:160px; float: right; text-align: left;}
-#footer{    margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
+#footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
 div.nopad ul {    clear:both;}
