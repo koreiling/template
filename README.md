@@ -1,7 +1,7 @@
 ## Template ontwikkeling t.b.v. een Responsive website
 
 # Te volgen stappen voor pushen en pullen
-- git add /file/ (Deze stap mag je vaker doen dan 1 keer)
+- git add <file> (Deze stap mag je vaker doen dan 1 keer)
 - git commit -m "/name commit/"
 - git pull origin master
 

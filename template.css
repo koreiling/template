@@ -234,7 +234,11 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
     display: none;
   }
 
-  #bannercolumn {
+  #bannercolumn .module {
     border: 0;
+  }
+
+  #breadcrumbs ul {
+
   }
 }
