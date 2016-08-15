@@ -233,4 +233,8 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
   #rightcolumn {
     display: none;
   }
+
+  #bannercolumn {
+    border: 0;
+  }
 }
