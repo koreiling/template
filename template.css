@@ -230,4 +230,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  #rightcolumn {
+    display: none;
+  }
 }
