@@ -121,6 +121,7 @@ a:hover img {opacity: 1 !important; filter: alpha(opacity=100) !important;}
   float: left;
   /*width: 410px;*/
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 #column4 {
   float: left;
@@ -226,3 +227,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 #system-message dd.error ul {     color: #c00; background: #E6C0C0; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B; padding: 0; margin: 0;}
 /* System Notice Messages */
 #system-message dd.notice ul {   color: #c00; background: #EFE7B8; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E; padding: 0; margin: 0;}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+}
