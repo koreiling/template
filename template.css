@@ -17,7 +17,7 @@ a {      text-decoration: none; color: #0070c1;}
 body{      margin:0 auto; padding-bottom: 20px; text-align:center; font-size:12px; font-family: Arial, Tahoma, sans-serif;}
 #background { position: fixed; top:-100px; display: block; background: url(http://hardenberg.kampeerenoutdoorreiling.nl/images/front_page/background-homepage.jpg); background-position: center top; width: 100%; height: 2000px;}
 #siteswitch{  position: relative; margin:0; padding:0; text-align:center;}
-#language_selector { position: relative; top: 90px; margin: 0 auto; padding:0; max-width:970px; text-align: right; height: 22px; z-index: 1;}
+#language_selector { position: relative; top: 90px; right: 20px; margin: 0 auto; padding:0; max-width:970px; text-align: right; height: 22px; z-index: 1;}
 #sitewrap{    position: relative; margin:0 auto; padding:0; max-width:1000px; background: #fff; box-shadow: 0 0 8px 1px rgba(100,100,100,0.4); border-radius: 20px; overflow: hidden;}
 #home img { height: 110px; position: absolute; top:12px; left: 15px; z-index:2;}
 #header{    margin:0; padding:0; max-width:1000px; height:132px; background: #0070c1;}
@@ -26,7 +26,7 @@ body{      margin:0 auto; padding-bottom: 20px; text-align:center; font-size:12p
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
 #bannercolumn {width: 100%;height: auto;margin:0;padding:0;max-width: 79%;float: left;text-align: left;}
-#rightcolumn {margin:0;padding: 25px 5% 25px 0;max-width: 16%;float: right;text-align: right;}
+#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
