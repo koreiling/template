@@ -78,3 +78,28 @@ transition: none;
 #breadcrumbs .nav ul li a {
   padding: .75em 3.8em .75em 1em;
 }
+
+#breadcrumbs label:before {
+  content: url(http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-icon.png);
+
+}
+
+label:hover{cursor:pointer;}
+
+@media screen and (max-width: 1000px) {
+    #breadcrumbs {position: absolute; text-align: left; background: white;}
+
+    #breadcrumbs ul {
+        transform: translateX(-100%);
+        transition: all 2s;
+    }
+
+    #breadcrumbs .nav li {
+        float: none;
+        border-bottom: solid 1px #fff;
+    }
+
+    #breadcrumbs label{
+        display: block;
+    }
+}
