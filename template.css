@@ -216,6 +216,7 @@ padding:10px 5px
 #rightcolumn h3 {                    margin: 0 0 8px 0; padding: 0 0 5px 0; font-family: Arial, Tahoma, sans-serif; font-size: 14px; color: #0070c1; border-bottom: 1px solid #ed8900; text-align: left;}
 #rightcolumn div.module{          margin-bottom: 16px; padding: 0; text-align: left;}
 #rightcolumn div.module table {        }
+#rightcolumn img {height:100%;width:100%;}
 
 #footer td { padding: 0 20px;}
 
@@ -239,9 +240,10 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 /* Tablet */
 @media screen and (max-width: 768px) {
   #language_selector {display: none}
+  #content{margin-top:37px}                       /*creates space for menu button*/
+  #bannercolumn, #maincolumn {max-width: 768px}   /*resets max-width from percentages*/
 
-  #bannercolumn, #maincolumn {max-width: 768px}
-
+  /*remove right column on smaller screens*/
   #rightcolumn {
     display: none;
   }
