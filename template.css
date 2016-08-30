@@ -24,9 +24,9 @@ body{      margin:0 auto; padding-bottom: 20px; text-align:center; font-size:12p
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
 #content{    margin:0; padding:0; max-width:1000px;}
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
-#maincolumn {  width: 100%; box-sizing: border-box; margin:0; padding:0px 25px; max-width:740px; float: left; text-align: left;}
-#bannercolumn { width: 100%; height: auto; margin:0; padding:0; max-width:790px; float: left; text-align: left;}
-#rightcolumn {  margin:0; padding:25px; width:160px; float: right; text-align: left;}
+#maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
+#bannercolumn {width: 100%;height: auto;margin:0;padding:0;max-width: 79%;float: left;text-align: left;}
+#rightcolumn {margin:0;padding: 25px 5% 25px 0;max-width: 16%;float: right;text-align: right;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
@@ -70,6 +70,9 @@ h4 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-
 /*menu bar parameters*/
 #breadcrumbs label{
   content:"http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-icon.png"
+}
+nav label:hover {
+  cursor: pointer;
 }
 
 /*banner column parameters*/
@@ -235,15 +238,15 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  #language_selector {display: none}
+
+  #bannercolumn, #maincolumn {max-width: 768px}
+
   #rightcolumn {
     display: none;
   }
 
   #bannercolumn .module {
     border: 0;
-  }
-
-  #breadcrumbs ul {
-
   }
 }
