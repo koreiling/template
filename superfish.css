@@ -79,18 +79,28 @@ transition: none;
   padding: .75em 3.8em .75em 1em;
 }
 
-#breadcrumbs label:before {
-  content: url(http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-icon.png);
-
+/*menu bar parameters*/
+#breadcrumbs nav input{
+  display:none;
 }
 
-label:hover{cursor:pointer;}
+#breadcrumbs nav label{
+  content:"http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-icon.png"
+  display: none;
+}
+nav label:hover {
+  cursor: pointer;
+}
+
+/* input[type=checkbox] {
+  display: none;
+}*/
 
 @media screen and (max-width: 1000px) {
     #breadcrumbs {position: absolute;right: 0px;top: 132px;z-index: 1;text-align: left;background: transparent;overflow: hidden;padding-bottom: 1000px;}
 
     #breadcrumbs ul {
-        transform: translateX(-100%);
+        transform: translateY(-100%);
         transition: all 2s;
     }
 
