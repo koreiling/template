@@ -87,7 +87,7 @@ transition: none;
 label:hover{cursor:pointer;}
 
 @media screen and (max-width: 1000px) {
-    #breadcrumbs {position: absolute; text-align: left; background: white;}
+    #breadcrumbs {position: absolute;right: 0px;top: 132px;z-index: 1;text-align: left;background: transparent;overflow: hidden;padding-bottom: 1000px;}
 
     #breadcrumbs ul {
         transform: translateX(-100%);
