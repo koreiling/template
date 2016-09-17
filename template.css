@@ -231,6 +231,8 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  #siteswitch {display: none}
+  #sitewrap {border-radius: 0px;}
   #language_selector {display: none}
   #content{margin-top:37px}                       /*creates space for menu button*/
   #bannercolumn, #maincolumn {max-width: 768px}   /*resets max-width from percentages*/
