@@ -129,6 +129,11 @@ input[type="checkbox"] {
       padding-left: 50px;
     }
 
+    #breadcrumbs .sf-with-ul {
+      pointer-events: none;
+      cursor: default;
+    }
+
     #breadcrumbs label{
         display: block;
     }
