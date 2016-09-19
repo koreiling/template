@@ -139,8 +139,8 @@ input[type="checkbox"] {
     }
 
     #breadcrumbs :checked ~ ul {
-        transform: translateY(-20%);
-        padding-top: 30%;
+        transform: translateY(-50px);
+        padding-top: 70px;
     }
     #breadcrumbs :checked ~ label{
         content: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-iconx.png");
