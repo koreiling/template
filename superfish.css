@@ -111,6 +111,24 @@ input[type="checkbox"] {
         border-bottom: solid 1px #fff;
     }
 
+    #breadcrumbs .nav li:hover > ul {
+      position: relative;
+      transform: translateY(0%);
+      transition: none;
+      display: block !important;
+      background: #eb9c31;
+    }
+
+    #breadcrumbs .nav ul li {
+      background: #eb9c31;
+      position: relative;
+      top: 100%;
+    }
+
+    #breadcrumbs .nav ul li a {
+      padding-left: 50px;
+    }
+
     #breadcrumbs label{
         display: block;
     }
