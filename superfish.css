@@ -45,24 +45,10 @@ box-shadow: 2px 2px 6px rgba(0,0,0,.2);
 min-width: 12em; /* allow long menu items to determine submenu width */
 *width: 12em; /* no auto sub width for IE7, see white-space comment below */
 }
-#breadcrumbs .nav a {
-/* border-left: 1px solid #fff; */
-/* border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
-padding: .68em 1.9em;
-text-decoration: none;
-color: #fff;
-zoom: 1; /* IE7 */
-}
+#breadcrumbs .nav a {/* border-left: 1px solid #fff; *//* border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */padding: .68em 1.9em;text-decoration: none;color: #fff;zoom: 1; /* IE7 */}
 
-#breadcrumbs .nav li {
-background: #ed8900;
-white-space: nowrap; /* no need for Supersubs plugin */
-*white-space: normal; /* ...unless you support IE7 (let it wrap) */
--webkit-transition: background .2s;
-transition: background .2s;
-font-size: 16px;
-font-weight: bold;
-}
+#breadcrumbs .nav li {background: #ed8900;white-space: nowrap; /* no need for Supersubs plugin */
+*white-space: normal; /* ...unless you support IE7 (let it wrap) */-webkit-transition: background .2s;transition: background .2s;font-size: 16px;font-weight: bold;}
 #breadcrumbs .nav ul li {
 background: #ed8900;
 font-weight: normal;
@@ -88,6 +74,7 @@ transition: none;
   content:url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-icon.png");
   display: none;
   position: relative;
+  float: right;
   z-index: 3;
 }
 nav label:hover {
@@ -99,7 +86,7 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 768px) {
-    #breadcrumbs {position: absolute;right: 0px;top: 132px;z-index: 1;text-align: left;background: transparent;overflow: hidden;padding-bottom: 1000px;}
+    #breadcrumbs {position: absolute;right: 0px;z-index: 1;text-align: left;background: transparent;overflow: hidden;padding-bottom: 1000px;max-width: 330px;}
 
     #breadcrumbs ul {
         transform: translateY(-130%);

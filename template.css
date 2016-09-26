@@ -17,10 +17,10 @@ a {      text-decoration: none; color: #0070c1;}
 body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-height:23px;font-family: Arial, Tahoma, sans-serif;}
 #background { position: fixed; top:-100px; display: block; background: url(http://hardenberg.kampeerenoutdoorreiling.nl/images/front_page/background-homepage.jpg); background-position: center top; width: 100%; height: 2000px;}
 #siteswitch{  position: relative; margin:0; padding:0; text-align:center;}
-#language_selector { position: relative; top: 110px; right: 20px; margin: 0 auto; padding:0; max-width:970px; text-align: right; height: 22px; z-index: 1;}
+#language_selector {position: relative;top: 110px;right: 20px;margin: 0 auto;padding:0;max-width:970px;text-align: right;height: 22px;z-index: 1;}
 #sitewrap{    position: relative; margin:0 auto; padding:0; max-width:1000px; background: #fff; box-shadow: 0 0 8px 1px rgba(100,100,100,0.4); border-radius: 20px; overflow: hidden;}
-#home img { height: 110px; position: absolute; top:28px; left: 38px; z-index:2;}
-#header{    margin:0; padding:0; max-width:1000px; height:160px; background: #0070c1;}
+#home img {height: 110px;position: absolute;top: 28px;left: 38px;z-index:2;}
+#header{margin:0;padding:0;max-width:1000px;height: 160px;background: #0070c1;}
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
 #content{    margin:0; padding:0; max-width:1000px;}
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
@@ -34,22 +34,7 @@ div.nopad ul {    clear:both;}
 
 div#language_selector div { float:right; }
 
-#siteswitch a{
-
-  display: inline-block;
-  height: 38px;
-  width: 218px;
-  background-color: #FFFFFF;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  color: #ed8900;
-  font-size: 28px;
-  line-height: 40px;
-  border: 3px solid #ed8900;
-  border-top: 0px;
-  box-shadow: 0 0 10px rgba(50,50,50,0.75)
-
-}
+#siteswitch a{display: inline-block;height: 38px;width: 218px;background-color: #FFFFFF;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;color: #ed8900;font-size: 28px;line-height: 40px;border: 3px solid #ed8900;border-top: 0px;box-shadow: 0 0 10px rgba(50,50,50,0.75);}
 
 /*****************************************/
 /*** Joomla! specific content elements ***/
@@ -230,11 +215,22 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-  #siteswitch {display: none}
+  #siteswitch {position: absolute;right: 0px;z-index: 4;width: 380px;}
   #sitewrap {border-radius: 0px;}
   #language_selector {display: none}
   #content{margin-top:37px}                       /*creates space for menu button*/
   #bannercolumn, #maincolumn {max-width: 768px}   /*resets max-width from percentages*/
+
+  /*vestigingen switch voor mobiele apparaten rechtsboven*/
+  #siteswitch a {
+    background: transparent;
+    color: #fff;
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 20px;
+    text-align: right;
+  }
 
   /*remove right column on smaller screens*/
   #rightcolumn {
