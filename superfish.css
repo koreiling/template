@@ -98,7 +98,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     #breadcrumbs {position: absolute;right: 0px;top: 132px;z-index: 1;text-align: left;background: transparent;overflow: hidden;padding-bottom: 1000px;}
 
     #breadcrumbs ul {
