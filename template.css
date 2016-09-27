@@ -4,7 +4,7 @@
 
 html {    height: 100%; margin-top: 0px; margin-bottom: 0px; overflow: -moz-scrollbars-vertical;}
 form {    margin: 0; padding: 0;}
-img {    border: none; max-width: 100%;}
+img {    border: none; max-width: 100%; height: auto;}
 table{    border: none; border-collapse: collapse; }
 p {      margin-top: 0; margin-bottom: 5px; text-align: left; width: 100%;}
 a {      text-decoration: none; color: #0070c1;}
@@ -26,7 +26,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
 #bannercolumn {width: 100%;height: auto;margin:0;padding:0;max-width: 79%;float: left;text-align: left;}
-#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right;}
+#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
@@ -230,6 +230,20 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
     box-shadow: none;
     font-size: 20px;
     text-align: right;
+    float: right;
+    padding-right: 70px;
+  }
+
+  #siteswitch a.huidige-locatie {
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-huidig.png") 70px no-repeat;
+  }
+
+  #siteswitch a.fysieke-locatie {
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-fysiek.png") 70px no-repeat;
+  }
+
+  #siteswitch a.webshop-locatie {
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-webshop.png") 70px no-repeat;
   }
 
   /*remove right column on smaller screens*/
