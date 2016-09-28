@@ -26,7 +26,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
 #bannercolumn {width: 100%;height: auto;margin:0;padding:0;max-width: 79%;float: left;text-align: left;}
-#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px;}
+#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px; line-height:20px;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
@@ -36,6 +36,22 @@ div#language_selector div { float:right; }
 
 #siteswitch a {display: inline-block;height: 38px;width: 218px;background-color: #FFFFFF;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;color: #ed8900;font-size: 28px;line-height: 40px;border: 3px solid #ed8900;border-top: 0px;box-shadow: 0 0 10px rgba(50,50,50,0.75);}
 #siteswitch a.huidige-locatie {background-color: #0070c1; color: #fff; border-color: #0070c1;}
+
+.footer-content ul {
+  list-style-type: none;
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+
+.footer-content li {
+  float: left;
+}
+
+.footer-content #footer1 {width: 40%;}
+.footer-content #footer2 {width: 25%;}
+.footer-content #footer3 {width: 22%;}
+.footer-content #footer4 {width: 10%;}
 
 /*****************************************/
 /*** Joomla! specific content elements ***/
