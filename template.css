@@ -34,7 +34,7 @@ div.nopad ul {    clear:both;}
 
 div#language_selector div { float:right; }
 
-#siteswitch a {display: inline-block;height: 38px;width: 218px;background-color: #FFFFFF;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;color: #ed8900;font-size: 28px;line-height: 40px;border: 3px solid #ed8900;border-top: 0px;box-shadow: 0 0 10px rgba(50,50,50,0.75);}
+#siteswitch a {display: inline-block;height: 38px;width: 220px;background-color: #FFFFFF;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;color: #ed8900;font-size: 28px;line-height: 40px;border: 3px solid #ed8900;border-top: 0px;box-shadow: 0 0 10px rgba(50,50,50,0.75);}
 #siteswitch a.huidige-locatie {background-color: #0070c1; color: #fff; border-color: #0070c1;}
 
 .footer-content ul {
@@ -232,7 +232,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-  #siteswitch {position: absolute;top: 40px;right: 0px;z-index: 4;width: 380px;}
+  #siteswitch {position: absolute;top: 10px;right: 10px;z-index: 4;width: 120px;}
   #sitewrap {border-radius: 0px;}
   #language_selector {display: none}
   #content{margin-top:37px}                       /*creates space for menu button*/
@@ -242,8 +242,10 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
   #siteswitch a {
     background: transparent;
     color: #fff;
-    border: none !important;
-    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-radius: 10px;
     box-shadow: none;
     font-size: 20px;
     text-align: right;
@@ -253,6 +255,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
   #siteswitch a.huidige-locatie {
     background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-huidig.png") 70px no-repeat;
+    border-color: #ed8900;
   }
 
   #siteswitch a.fysieke-locatie {
