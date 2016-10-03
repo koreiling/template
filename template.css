@@ -250,20 +250,21 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
     font-size: 20px;
     text-align: right;
     float: right;
-    padding-right: 70px;
+    width: 100%;
+    padding-right: 50px;
   }
 
   #siteswitch a.huidige-locatie {
-    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-huidig.png") 70px no-repeat;
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/winkel-icon-wit-small.png") right no-repeat;
     border-color: #ed8900;
   }
 
   #siteswitch a.fysieke-locatie {
-    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-fysiek.png") 70px no-repeat;
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/winkel-icon-wit-small.png") right no-repeat;
   }
 
   #siteswitch a.webshop-locatie {
-    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/locatie-webshop.png") 70px no-repeat;
+    background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/webshop-icon-wit-small.png") right no-repeat;
   }
 
   /*remove right column on smaller screens*/
