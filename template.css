@@ -19,7 +19,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #siteswitch{  position: relative; margin:0; padding:0; text-align:center;}
 #language_selector {position: relative;top: 110px;right: 20px;margin: 0 auto;padding:0;max-width:970px;text-align: right;height: 22px;z-index: 1;}
 #sitewrap{    position: relative; margin:0 auto; padding:0; max-width:1000px; background: #fff; box-shadow: 0 0 8px 1px rgba(100,100,100,0.4); border-radius: 20px; overflow: hidden;}
-#home img {height: 110px;position: absolute;top: 28px;left: 38px;z-index:2;}
+#home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 38px;z-index:2;}
 #header{margin:0;padding:0;max-width:1000px;height: 160px;background: #0070c1;}
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
 #content{    margin:0; padding:0; max-width:1000px;}
@@ -52,6 +52,14 @@ div#language_selector div { float:right; }
 .footer-content #footer2 {width: 25%;}
 .footer-content #footer3 {width: 22%;}
 .footer-content #footer4 {width: 10%;}
+
+/*****************************************/
+/*** Site-specific content elements    ***/
+/*****************************************/
+
+#aanbod > #sitewrap #rightcolumn {display:none;}
+#aanbod > #sitewrap #maincolumn {max-width: 100%; padding: 0 3%;}
+#aanbod > #sitewrap div.nopad {max-width: 950px;}
 
 /*****************************************/
 /*** Joomla! specific content elements ***/
@@ -232,7 +240,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-  #siteswitch {position: absolute;top: 10px;right: 10px;z-index: 4;width: 120px;}
+  #siteswitch {position: absolute;top: 20px;right: 10px;z-index: 4;width: 120px;}
   #sitewrap {border-radius: 0px;}
   #language_selector {display: none}
   #content{margin-top:37px}                       /*creates space for menu button*/
