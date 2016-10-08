@@ -51,7 +51,7 @@ div#language_selector div { float:right; }
 .footer-content #footer1 {width: 40%;}
 .footer-content #footer2 {width: 23%;}
 .footer-content #footer3 {width: 22%;}
-.footer-content #footer4 {width: 8%; text-align:right;}
+.footer-content #footer4 {width: 7%; text-align:right;}
 
 /*****************************************/
 /*** Site-specific content elements    ***/
@@ -284,8 +284,9 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
     border: 0;
   }
 
-  .footer-content #footer1 {width:50%;}
-  .footer-content #footer2 {width:35%;}
+  .footer-content li {padding: 0px 50px 50px 0px;}
+  .footer-content #footer1 {width:initial;}
+  .footer-content #footer2 {width:initial;}
   .footer-content #footer3 {display:none;}
-  .footer-content #footer4 {width:12%;}
+  .footer-content #footer4 {width:initial;}
 }
