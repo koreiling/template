@@ -19,7 +19,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #siteswitch{  position: relative; margin:0; padding:0; text-align:center;}
 #language_selector {position: relative;top: 110px;right: 20px;margin: 0 auto;padding:0;max-width:970px;text-align: right;height: 22px;z-index: 1;}
 #sitewrap{    position: relative; margin:0 auto; padding:0; max-width:1000px; background: #fff; box-shadow: 0 0 8px 1px rgba(100,100,100,0.4); border-radius: 20px; overflow: hidden;}
-#home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 38px;z-index:2;}
+#home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 6%;z-index:2;}
 #header{margin:0;padding:0;max-width:1000px;height: 160px;background: #0070c1;}
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
 #content{    margin:0; padding:0; max-width:1000px;}

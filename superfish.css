@@ -85,6 +85,8 @@ input[type="checkbox"] {
     #breadcrumbs ul {
         transform: translateY(-100%);
         transition: all 1s;
+        border-radius: 0 0 0 15px;
+        overflow: hidden;
     }
 
     #breadcrumbs .nav li {
@@ -115,8 +117,8 @@ input[type="checkbox"] {
       cursor: default;
     }
 /* menu-knop toggler plus animaties */
-    #breadcrumbs .menu-toggle-padding {
-        background-image: radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #0070c1 15px);
+    #breadcrumbs label::before {
+        background-image: radial-gradient(circle at 0 100%, rgba(204,0,0,0) 15px, #0070c1 16px);
         position: absolute;
         display: block;
         height: 15px;
@@ -124,6 +126,7 @@ input[type="checkbox"] {
         top: 0px;
         right: 75px;
         z-index: 3;
+        content:"";
     }
 
     #breadcrumbs label {
