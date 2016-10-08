@@ -115,6 +115,17 @@ input[type="checkbox"] {
       cursor: default;
     }
 /* menu-knop toggler plus animaties */
+    #breadcrumbs .menu-toggle-padding {
+        background-image: radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #0070c1 15px);
+        position: absolute;
+        display: block;
+        height: 15px;
+        width: 15px;
+        top: 0px;
+        right: 75px;
+        z-index: 3;
+    }
+
     #breadcrumbs label {
       content:"";
       display: block;
