@@ -22,7 +22,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 5%;z-index:2;}
 #header{margin:0;padding:0;max-width:1000px;height: 160px;background: #0070c1;}
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
-#quick-contact {position: relative; max-width: 78%;}
+#quick-contact {position: relative; padding: 0 4%; max-width: 78%;}
 #content{    margin:0; padding:0; max-width:1000px;}
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
@@ -50,6 +50,7 @@ div#language_selector div { float:right; }
   margin-left: 25px;
   white-space: nowrap;
 }
+#quick-contact li:first-child {margin:0;}
 
 .footer-content ul {
   list-style-type: none;
@@ -284,6 +285,11 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 
   #siteswitch a.webshop-locatie {
     background: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/webshop-icon-wit-small.png") right no-repeat;
+  }
+
+  /*remove unnecessary text*/
+  #quick-contact li:first-child {
+    display:none;
   }
 
   /*remove right column on smaller screens*/
