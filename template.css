@@ -47,7 +47,7 @@ div#language_selector div { float:right; }
 }
 #quick-contact ul li {
   float: left;
-  margin-right: 25px;
+  margin-right: 20px;
   white-space: nowrap;
 }
 #quick-contact li:last-child {margin:0;}
