@@ -19,14 +19,15 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #siteswitch{  position: relative; margin:0; padding:0; text-align:center;}
 #language_selector {position: relative;top: 110px;right: 20px;margin: 0 auto;padding:0;max-width:970px;text-align: right;height: 22px;z-index: 1;}
 #sitewrap{    position: relative; margin:0 auto; padding:0; max-width:1000px; background: #fff; box-shadow: 0 0 8px 1px rgba(100,100,100,0.4); border-radius: 20px; overflow: hidden;}
-#home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 6%;z-index:2;}
+#home img {height: auto;position: absolute; max-width: 190px; width: 36%;top: 28px;left: 5%;z-index:2;}
 #header{margin:0;padding:0;max-width:1000px;height: 160px;background: #0070c1;}
 #breadcrumbs{  margin:0; padding:0; max-width:1000px; height: 35px; background: #ed8900;}
+#quick-contact {position: relative; max-width: 78%;}
 #content{    margin:0; padding:0; max-width:1000px;}
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
-#bannercolumn {width: 100%;height: auto;margin:0;padding:0;max-width: 79%;float: left;text-align: left;}
-#rightcolumn {margin:0;padding: 25px 4% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px; line-height:20px;}
+#bannercolumn {height: auto;margin: 15px 0;padding: 0 25px;max-width: 74%;float: left;text-align: left;width: 100%;}
+#rightcolumn {margin:0;padding: 25px 3.5% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px; line-height:20px;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
 div.nopad {    margin:0; padding:0; max-width: 740px; overflow: hidden;}
@@ -36,6 +37,19 @@ div#language_selector div { float:right; }
 
 #siteswitch a {display: inline-block;height: 38px;width: 220px;background-color: #FFFFFF;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;color: #ed8900;font-size: 28px;line-height: 40px;border: 3px solid #ed8900;border-top: 0px;box-shadow: 0 0 10px rgba(50,50,50,0.75);}
 #siteswitch a.huidige-locatie {background-color: #0070c1; color: #fff; border-color: #0070c1;}
+
+#quick-contact ul {
+  list-style-type: none;
+  float: left;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0;
+}
+#quick-contact ul li {
+  float: left;
+  margin-left: 25px;
+  white-space: nowrap;
+}
 
 .footer-content ul {
   list-style-type: none;
@@ -76,9 +90,6 @@ h4 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-
 .contentheading {           clear:both; margin: 18px 0; padding-bottom: 4px; font-family: Arial, Tahoma, sans-serif; font-size: 28px; line-height:initial; font-weight: bold; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 .contentsubheading {            margin-top: 8px; margin-bottom: 15px; padding-bottom: 4px; display: block; font-family: Arial, Tahoma, sans-serif; line-height:initial; font-size: 18px; font-weight: normal; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 .contentsubheading2 {         font-family: Arial, Tahoma, sans-serif; font-size: 16px; font-weight: bold; color: #0070c1; width: 100%; line-height:initial;}
-
-/*banner column parameters*/
-#bannercolumn div.module { margin-bottom: -18px; border: 25px solid #FFFFFF;}
 
 /*google maps route button*/
 #maincolumn input.button { margin-bottom: 10px; background: #0070c1; color: #fff; font-weight: bold; border: none; border-radius: 5px;}
