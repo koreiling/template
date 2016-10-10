@@ -80,7 +80,7 @@ input[type="checkbox"] {
 }
 
 /* Small screens */
-@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 1000px) {
 #breadcrumbs .nav a {padding: .68em .9em;}
 }
 
