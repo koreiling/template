@@ -26,7 +26,7 @@ body{margin:0 auto;padding-bottom: 20px;text-align:center;font-size: 16px;line-h
 #content{    margin:0; padding:0; max-width:1000px;}
 #leftcolumn {  margin:0; padding:25px; max-width:160px; float: left; text-align: left;}
 #maincolumn {width: 100%;box-sizing: border-box;margin:0;padding: 0px 4%;max-width: 79%;float: left;text-align: left;}
-#bannercolumn {height: auto;margin: 15px 0;padding: 0 25px;max-width: 74%;float: left;text-align: left;width: 100%;}
+#bannercolumn {height: auto;margin:0;padding: 15px 25px;max-width: 74%;float: left;text-align: left;width: 100%;}
 #rightcolumn {margin:0;padding: 25px 3.5% 25px 0;max-width: 16%;float: right;text-align: right; font-size: 14px; line-height:20px;}
 #footer{ width: 100%; margin-top:15px; padding: 10px 0; max-width:1000px; background: #e0e9ef; display: inline-block; border-top: 5px solid #0070c1;}
 
@@ -47,7 +47,8 @@ div#language_selector div { float:right; }
 }
 #quick-contact ul li {
   float: left;
-  margin-right: 20px;
+  margin-right: 10px;
+  padding: 5px;
   white-space: nowrap;
 }
 #quick-contact li:last-child {margin:0;}
@@ -249,8 +250,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 /* System Notice Messages */
 #system-message dd.notice ul {   color: #c00; background: #EFE7B8; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E; padding: 0; margin: 0;}
 
-
-/* Tablet */
+/* Tablet & Mobile */
 @media screen and (max-width: 768px) {
   #siteswitch {position: absolute;top: 20px;right: 10px;z-index: 4;width: 120px;}
   #sitewrap {border-radius: 0px;}
