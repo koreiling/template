@@ -291,6 +291,9 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
   #quick-contact li:first-child {
     display:none;
   }
+  #quick-contact li:nth-child(2) {
+    margin:0;
+  }
 
   /*remove right column on smaller screens*/
   #rightcolumn {
