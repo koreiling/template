@@ -43,7 +43,7 @@ div#language_selector div { float:right; }
   float: left;
   text-align: left;
   padding: 0;
-  margin-bottom: 0;
+  margin: 10px 0;
 }
 #quick-contact ul li {
   float: left;
@@ -77,20 +77,22 @@ div#language_selector div { float:right; }
 #aanbod > #sitewrap #maincolumn {max-width: 100%; padding: 0 3%;}
 #aanbod > #sitewrap div.nopad {max-width: 950px;}
 
+#frontpage > .contentheading { font-weight: bold; font-size: 1.75em;}
+
 /*****************************************/
 /*** Joomla! specific content elements ***/
 /*****************************************/
 
 /*header specific styles*/
 h1 {                    margin: 0; padding: 0 0 10px 0; font-family: Arial, Tahoma, sans-serif; font-size: 26px; color: #FF0000; text-align: left; font-weight: bold;line-height:initial;}
-h2 {                    margin: 18px 0; padding-bottom: 15px; font-family: Arial, Tahoma, sans-serif; font-size: 24px; font-weight: normal; line-height:initial;color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
+h2 {                    clear:both; margin: 18px 0; padding-bottom: 4px; font-family: Arial, Tahoma, sans-serif; font-size: 28px; line-height:initial; font-weight: bold; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 h3 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 12px; text-align: left;line-height:initial;}
 h4 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 10px; color: #3D3E8E;line-height:initial;}
 
 .bluelink {  background: #0070c1; color: #fff; font-weight: bold; padding: 8px; border-radius: 5px; float: left;}
 .componentheading {            margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 12px; text-align: left;line-height:initial;}
-.contentheading {           clear:both; margin: 18px 0; padding-bottom: 4px; font-family: Arial, Tahoma, sans-serif; font-size: 28px; line-height:initial; font-weight: bold; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
-.contentsubheading {            margin-top: 8px; margin-bottom: 15px; padding-bottom: 4px; display: block; font-family: Arial, Tahoma, sans-serif; line-height:initial; font-size: 18px; font-weight: normal; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
+.contentheading {         font-weight: normal; font-size: 1.5em;}
+.contentsubheading {           clear: both; margin: 8px 0 15px 0; padding-bottom: 4px; display: block; font-family: Arial, Tahoma, sans-serif; line-height:initial; font-size: 18px; font-weight: normal; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 .contentsubheading2 {         font-family: Arial, Tahoma, sans-serif; font-size: 16px; font-weight: bold; color: #0070c1; width: 100%; line-height:initial;}
 
 /*google maps route button*/
