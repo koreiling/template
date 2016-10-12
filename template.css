@@ -130,7 +130,7 @@ ul.nav.menuhorizontal_menu li a:hover {box-shadow: 0 0 1px 3px rgba(237,137,0,0.
 .readmore a { font-weight: bold; color: #fff; float: right; background: #0070c1; padding: 8px; border-radius: 5px;}
 a:hover img {opacity: 1 !important; filter: alpha(opacity=100) !important;}
 
-
+@media DISABLED {
 #column1 {
   float: left;
   /*width: 500px;*/
@@ -224,6 +224,7 @@ width:30%
 .blog-more
 {
 padding:10px 5px
+}
 }
 
 /*fill elements of page*/
