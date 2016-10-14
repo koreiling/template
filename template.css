@@ -83,7 +83,7 @@ div#language_selector div { float:right; }
 
 /*header specific styles*/
 h1 {                    margin: 0; padding: 0 0 10px 0; font-family: Arial, Tahoma, sans-serif; font-size: 26px; color: #FF0000; text-align: left; font-weight: bold;line-height:initial;}
-h2 {                    clear:both; margin: 18px 0; padding-bottom: 4px; font-family: Arial, Tahoma, sans-serif; font-size: 28px; line-height:initial; font-weight: bold; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
+h2 {                    clear:both; margin-bottom: 18px; padding-bottom: 4px; font-family: Arial, Tahoma, sans-serif; font-size: 28px; line-height:initial; font-weight: bold; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 h3 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 12px; text-align: left;line-height:initial;}
 h4 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 10px; color: #3D3E8E;line-height:initial;}
 
@@ -234,7 +234,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
     border-right: 2px solid transparent;
     border-radius: 10px;
     box-shadow: none;
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: right;
     float: right;
     width: 100%;
