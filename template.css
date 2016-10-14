@@ -77,8 +77,6 @@ div#language_selector div { float:right; }
 #aanbod > #sitewrap #maincolumn {max-width: 100%; padding: 0 3%;}
 #aanbod > #sitewrap div.nopad {max-width: 950px;}
 
-#frontpage > .contentheading { font-weight: bold; font-size: 1.75em;}
-
 /*****************************************/
 /*** Joomla! specific content elements ***/
 /*****************************************/
@@ -91,7 +89,7 @@ h4 {                    margin: 0; padding: 0; font-family: Arial, Tahoma, sans-
 
 .bluelink {  background: #0070c1; color: #fff; font-weight: bold; padding: 8px; border-radius: 5px; float: left;}
 .componentheading {            margin: 0; padding: 0; font-family: Arial, Tahoma, sans-serif; font-size: 12px; text-align: left;line-height:initial;}
-.contentheading {         font-weight: normal; font-size: 1.5em;}
+.contentheading {         }
 .contentsubheading {           clear: both; margin: 8px 0 15px 0; padding-bottom: 4px; display: block; font-family: Arial, Tahoma, sans-serif; line-height:initial; font-size: 18px; font-weight: normal; color: #0070c1; border-bottom: 1px solid #ed8900; width: 100%;}
 .contentsubheading2 {         font-family: Arial, Tahoma, sans-serif; font-size: 16px; font-weight: bold; color: #0070c1; width: 100%; line-height:initial;}
 
@@ -132,101 +130,67 @@ ul.nav.menuhorizontal_menu li a:hover {box-shadow: 0 0 1px 3px rgba(237,137,0,0.
 .readmore a { font-weight: bold; color: #fff; float: right; background: #0070c1; padding: 8px; border-radius: 5px;}
 a:hover img {opacity: 1 !important; filter: alpha(opacity=100) !important;}
 
-@media DISABLED {
-#column1 {
-  float: left;
-  /*width: 500px;*/
-  /*margin-right: 20px;*/
-}
-#column2 {
-  float: left;
-  /*width: 220px;*/
-}
-#column3 {
-  float: left;
-  /*width: 410px;*/
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-#column4 {
-  float: left;
-  /*width: 300px;*/
-}
-
 /* Category Blog column settings */
-.cols-2 .contentheading { margin: 10px 0; padding-bottom: 8px; font-size: 18px; line-height:initial;}
+.cols-2 .contentheading { font-weight: normal; font-size: 1.5em;}
 
-.cols-1
-{
-display: block;
-float: none !important;
-margin: 0 !important;
+.cols-1 {
+  display: block;
+  float: none !important;
+  margin: 0 !important;
 }
 
-.cols-2 .column-1
-{
-width:46%;
-float:left;
+.cols-2 .column-1 {
+  width:46%;
+  float:left;
 }
 
-.cols-2 .column-2
-{
-width:46%;
-float:right;
-margin:0
+.cols-2 .column-2 {
+  width:46%;
+  float:right;
+  margin:0
 }
 
-.cols-3 .column-1
-{
-float:left;
-width:29%;
-padding:0px 5px;
-margin-right:4%
-
+.cols-3 .column-1 {
+  float:left;
+  width:29%;
+  padding:0px 5px;
+  margin-right:4%
 }
-.cols-3 .column-2
-{
-float:left;
-width:29%;
-margin-left:0;
-padding:0px 5px
+.cols-3 .column-2 {
+  float:left;
+  width:29%;
+  margin-left:0;
+  padding:0px 5px
 }
-.cols-3 .column-3
-{
-float:right;
-width:29%;
-padding:0px 5px
+.cols-3 .column-3 {
+  float:right;
+  width:29%;
+  padding:0px 5px
 }
 
-.items-row
-{
-overflow:hidden;
-margin-bottom:10px !important;
+.items-row {
+  overflow:hidden;
+  margin-bottom:10px !important;
   clear: both;
 }
 
 .column-1,
 .column-2,
-.column-3
-{
-padding:10px 5px
+.column-3 {
+  padding:10px 5px
 }
 
-.column-2
-{
-width:55%;
-margin-left:40%;
+.column-2 {
+  width:55%;
+  margin-left:40%;
 }
 
-.column-3
-{
-width:30%
+.column-3 {
+  width:30%
 }
 
-.blog-more
-{
-padding:10px 5px
-}
+.blog-more {
+  padding:10px 5px
 }
 
 /*fill elements of page*/
@@ -309,4 +273,11 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
   .footer-content #footer2 {width:initial;}
   .footer-content #footer3 {display:none;}
   .footer-content #footer4 {width:initial;}
+}
+
+@media screen and (max-width: 480px) {
+  .cols-2 .column1, .cols-2 .column-2 {
+    width: 98%;
+    float: left;
+  }
 }
