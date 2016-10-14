@@ -276,7 +276,7 @@ td.key {              border-bottom:1px solid #eee; color: #333;}
 }
 
 @media screen and (max-width: 480px) {
-  .cols-2 .column1, .cols-2 .column-2 {
+  .cols-2 .column-1, .cols-2 .column-2 {
     width: 98%;
     float: left;
   }
