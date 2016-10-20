@@ -87,6 +87,7 @@ input[type="checkbox"] {
 /* Tablet & Mobile */
 @media screen and (max-width: 768px) {
     #breadcrumbs {
+      pointer-events: none;
       position: absolute;
       right: 0px;
       z-index: 1;
@@ -103,6 +104,7 @@ input[type="checkbox"] {
         transition: all 1s;
         border-radius: 0 0 0 15px;
         overflow: hidden;
+        pointer-events: initial;
     }
 
     #breadcrumbs .nav li {
@@ -155,6 +157,7 @@ input[type="checkbox"] {
       width: 75px;
       background: #0070c1;
       border-radius: 0 0 0 15px;
+      pointer-events: initial;
     }
 
     #breadcrumbs label span {
