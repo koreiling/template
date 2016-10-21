@@ -53,6 +53,22 @@ div#language_selector div { float:right; }
 }
 #quick-contact li:last-child {margin:0;}
 
+.home-banner-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.home-banner-container img {
+  width: 26%;
+}
+.home-banner-contents {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .footer-content ul {
   list-style-type: none;
   float: left;
