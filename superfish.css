@@ -107,6 +107,13 @@ input[type="checkbox"] {
         pointer-events: initial;
     }
 
+    #breadcrumbs ul li ul {
+        position: relative;
+        display: block !important;
+        transform: translateX(275px);
+        transition: none;
+    }
+
     #breadcrumbs .nav li {
         float: none;
         border-bottom: solid 1px #fff;
@@ -114,10 +121,8 @@ input[type="checkbox"] {
 
     #breadcrumbs .nav li:hover > ul {
       position: relative;
-      transform: translateY(0%);
-      transition: none;
-      display: block !important;
-      background: #eb9c31;
+      transform: translateX(0%);
+      transition: all 1s;
     }
 
     #breadcrumbs .nav ul li {
