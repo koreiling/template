@@ -169,6 +169,7 @@ input[type="checkbox"] {
         background: white;
         height: 6px;
         border-radius: 2px;
+        transition: background 0s 0.3s;
     }
 
     #breadcrumbs label span::before,
@@ -181,10 +182,12 @@ input[type="checkbox"] {
         background-color: #fff;
         border-radius: 2px;
         content: "";
+        transition-delay: 0.3s, 0s;
+        transition-duration: 0.3s, 0.3s;
     }
 
-    #breadcrumbs label span::before {top: -14px;}
-    #breadcrumbs label span::after {bottom: -14px;}
+    #breadcrumbs label span::before {top: -14px; transition-property: top, transform;}
+    #breadcrumbs label span::after {bottom: -14px; transition-property: bottom, transform;}
 
     nav label:hover {
       cursor: pointer;
@@ -194,9 +197,21 @@ input[type="checkbox"] {
         transform: translateY(0px);
         padding-top: 70px;
     }
-    #breadcrumbs :checked ~ label{
-        content: url("http://testsite.kampeerenoutdoorreiling.nl/images/M_images/menu-iconx.png");
-    }
+    #breadcrumbs :checked + label span {
+       background: none;
+   }
+   #breadcrumbs :checked + label span::before,
+   #breadcrumbs :checked + label span::after {
+       transition-delay: 0s, 0.3s;
+   }
+   #breadcrumbs :checked + label span::before {
+       top: 0;
+       transform: rotate(45deg);
+   }
+   #breadcrumbs :checked + label span::after {
+       bottom: 0;
+       transform: rotate(-45deg);
+   }
 
     #breadcrumbs ul li:last-child {border-bottom: none;}
 }
